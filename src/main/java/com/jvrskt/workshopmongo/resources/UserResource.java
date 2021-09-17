@@ -48,5 +48,10 @@ public class UserResource {
 		return ResponseEntity.created(uri).build();
 		//URI retorna o caminho do novo recurso criado atraves do ID
 	}
-	
+
+	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+	public ResponseEntity<UserDTO> deleteById(@PathVariable String id){
+		service.deleteById(id);
+		return ResponseEntity.noContent().build();
+	}
 }
