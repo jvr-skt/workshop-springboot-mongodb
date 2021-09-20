@@ -19,18 +19,18 @@ public class Post implements Serializable{
 	private Date date;
 	private String title;
 	private String body;
-	private AuthorDTO authorDTO;
+	private AuthorDTO author;
 	
 	public Post() {
 	}
 
-	public Post(String id, Date date, String title, String body, AuthorDTO authorDTO) {
+	public Post(String id, Date date, String title, String body, AuthorDTO author) {
 		super();
 		this.id = id;
 		this.date = date;
 		this.title = title;
 		this.body = body;
-		this.authorDTO = authorDTO;
+		this.author = author;
 	}
 
 	public String getId() {
@@ -66,11 +66,11 @@ public class Post implements Serializable{
 	}
 
 	public AuthorDTO getAuthorDTO() {
-		return authorDTO;
+		return author;
 	}
 
-	public void setAuthor(AuthorDTO authorDTO) {
-		this.authorDTO = authorDTO;
+	public void setAuthorDTO(AuthorDTO author) {
+		this.author = author;
 	}
 
 	@Override
