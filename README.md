@@ -27,9 +27,11 @@
  - Realizar consultas com Spring Data e MongoRepository
 
 
-
+## Modelo Conceitual
 ![Modelo-Conceitual 1](https://user-images.githubusercontent.com/73432286/134728880-d7ca0d11-1a38-43d9-ab10-d0fb89b9d035.png) 
-![Modelo-Conceitual 2](https://github.com/jvr-skt/workshop-springboot-mongodb/issues/1#issuecomment-926866692)
+
+## Modelo Agregado
+![Modelo-Conceitual 2](https://user-images.githubusercontent.com/73432286/134729801-bdc403e4-6b24-4fc9-86a6-d83f3c5bb72c.png)
 
 
 ```bash
