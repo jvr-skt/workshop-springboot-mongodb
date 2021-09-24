@@ -28,7 +28,7 @@
 
 
 
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://user-images.githubusercontent.com/73432286/134728880-d7ca0d11-1a38-43d9-ab10-d0fb89b9d035.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 
 ```bash
